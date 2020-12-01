@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RentalQ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <style>
+      body{
+        /* font-family: 'Montserrat'; */
+      }
+       /* Home */
+
+       div#home {
+            height: 90vh;
+        }
+
+        div#home div#leftSideHome {
+            padding: 120px;
+            margin-top: 75px;
+            color: var(--main-text-color);
+            text-align: left;
+        }
+
+        div#home div#leftSideHome p {
+            margin-bottom: 35px;
+        }
+
+        div#home div#leftSideHome a {
+            text-decoration: none;
+            padding: 12.5px 12.5px;
+            background-color: var(--btn-color);
+            border-radius: 50px;
+            color: #ffffff;
+        }
+
+        div#home div#leftSideHome hr {
+            width: 17.5%; 
+            border: 1px solid var(--main-text-color);
+        }
+
+        div#home div#rightSideHome img {
+            width: 100%;
+            /* border-bottom: 1px solid; */
+            
+        }
+        
+        div#about footer div.card i {
+                font-size: 100px;
+        }
+
+        /* about */
+        div#about {
+            height: 90vh;
+        }
+        
+        /* testi */
+        div#testi {
+            height: 95vh;
+        }
+        .img-google{
+            width: 100%;
+        }
+        .img-apple{
+            width: 88%;
+            margin-left: 7px;
+        }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #2E86DE;">
+        <div class="container"> 
+        <a class="navbar-brand" href="#">RentalQ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="text-light" style="margin-right: 5px;">
+                    <a class="nav-link text-light" href="#">Tentang Kami</a>
+                </li>
+                <li class="text-light" style="margin-right: 5px;">
+                    <a class="nav-link text-light" href="#">Testimoni</a>
+                </li>
+                <li class="">
+                    <a class="nav-link text-light" href="#">Sewa Mobil</a>
+                </li>
+                <li class="text-light" style="margin-right: 5px;">
+                    <a class="nav-link text-light" href="#">Kontak</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="login.html">Masuk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="register.html">Daftar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- main -->
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Profile</h4>
+                                <div style="clear: both;"></div>
+                                <div class="text-center">
+                                    <img src="assets/img/testi.png" class="img-responsive rounded-circle mt-3" id="photo">
+                                </div>
+                                
+                                <table border="0" class="table table-striped mt-4"  style="font-size: 15px; color:black">
+                                    <tbody>
+                                        <tr>
+                                            <td>Nama</td>
+                                            <td>:</td>
+                                            <td>Agustin</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jenis Kelamin</td>
+                                            <td>:</td>
+                                            <td>Perempuan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kelahiran</td>
+                                            <td>:</td>
+                                            <td>New York - 19 Agustus 1992</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alamat</td>
+                                            <td>:</td>
+                                            <td>Jakarta, Indonesia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kontak</td>
+                                            <td>:</td>
+                                            <td>+62 85585858585</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bio</td>
+                                            <td>:</td>
+                                            <td>Lorem ipsum dolor sit amet, zril repudiandae ad usu, cu tempor atomorum evertitur his. Quodsi voluptua urbanitas nec ut, dolore nostrud an ius. Quo elit ludus noster cu, ius putent luptatum an. Ad qui aliquid democritum, in doming mediocrem per, bonorum antiopam mei ex.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Edit Profile</h4>
+                                <div style="clear: both;"></div>
+                                <form >
+                
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputProfileName">Nama <span style="color: red;">*</span></label>
+                                            <input type="text" name="name" placeholder="Fullname" class="form-control" id="inputProfileName" value="Agustin" required>
+                                        </div>
+                
+                                        <div class="form-group col-md-6">
+                                            <label for="selectProfileGender">Jenis Kelamin <span style="color: red;">*</span></label>
+                                            <select name="gender" class="custom-select" id="selectProfileGender" required>
+                                    
+                                                <option disabled>-- Pilih Jenis Kelamin --</option>
+                                                <option value="Male">Laki-Laki</option>
+                                                <option value="Female" selected>Perempuan</option>
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputProfilePlace">Tempat Lahir <span style="color: red;">*</span></label>
+                                            <input type="text" name="place_of_birth" placeholder="Surabaya" class="form-control" id="inputProfilePlace" value="New York" required>
+                                        </div>
+                                    
+                                        <div class="form-group col-md-6">
+                                            <label for="selectProfileDate">Tanggal Lahir <span style="color: red;">*</span></label>
+                                            <input type="date" name="date_of_birth" class="form-control" id="selectProfileDate" value="19 Agustus 1992" required>
+                                        </div>
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <label for="inputProfileAddress">Alamat <span style="color: red;">*</span></label>
+                                        <input type="address" name="address" class="form-control" id="inputProfileAddress" placeholder="1234 Main St" value="Jakarta, Indonesia" required>
+                                    </div>
+                
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputProfileContact">Kontak <span style="color: red;">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">+62</div>
+                                                    </div>
+                                          
+                                                    <input type="contact" name="contact" class="form-control" id="inlineFormInputGroupUsername" placeholder="123456789" value="85585858585" required>
+                                                </div>
+                                        </div>
+                
+                                        <div class="form-group col-md-6">
+                                            <label for="uploadPhoto">Foto Profile</label>
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="uploadPhoto" name="photo">
+                                                <label class="custom-file-label" id="imageLabel" for="customFile">Pilih file</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Bio</label>
+                                        <textarea name="bio" class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="My hobby is ...">Lorem ipsum dolor sit amet, zril repudiandae ad usu, cu tempor atomorum evertitur his. Quodsi voluptua urbanitas nec ut, dolore nostrud an ius. Quo elit ludus noster cu, ius putent luptatum an. Ad qui aliquid democritum, in doming mediocrem per, bonorum antiopam mei ex.</textarea>
+                                    </div>
+                
+                                    <button type="submit" class="btn btn-primary float-right">Save</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                </div>
+            </div>
+
+        </div>
+    
+        <br />
+    <!--main-->
+        <!-- footer -->
+        <!-- Footer -->
+<footer class="page-footer font-small" style="background-color: #2E86DE; color: white;">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5" style="padding-top: 30px;">
+      <div class="row mt-3">
+        <div class="col-md-6 col-lg-7 col-xl-6 mx-auto mb-4 d-flex align-items-center">
+          <!-- <img src="assets/img/icon.png" alt="Logo" style="width:15%;" class="img-responsive"> -->
+              <strong class="ml-3" style="font-size: 40px; font-family: 'Montserrat';">RentalQ</strong>
+        </div>
+        <div class="col-md-6 col-lg-5 mx-auto mb-4">
+          <div class="row">
+            <div class="col-4">
+              <h6 class="footer-title">Account</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p class="sub-account" >
+                <a href="#!"  style="color: white;">Company</a>
+              </p>
+              <p class="sub-account">
+                <a href="#!" style="color: white;">Developer</a>
+              </p>
+            </div>
+            <div class="col-4" style="padding-right: 10px;">
+              <h6 class="footer-title">About Us</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p class="sub-account">
+                <a href="#!"  style="color: white;"><i class="fa fa-twitter mr-1" aria-hidden="true"></i> @crazysmile</a>
+              </p>
+              <p class="sub-account">
+                <a href="#!" style="color: white;">Developer</a>
+              </p>
+            </div>
+            <div class="col-4">
+              <h6 class="footer-title">Mobile Apps</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p class="sub-account">
+                <img src="assets/img/google_play.png" class="img-google">
+              </p>
+              <p class="sub-account">
+                <img src="assets/img/app_store.png" class="img-apple">
+              </p>
+            </div>
+           
+            </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      <hr class=" accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80%; background-color: white;">
+    </center>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+  
+    <!-- Copyright -->
+    <div class="container" style="padding-bottom: 40px;">
+      <span class="">&reg; 2020 Alright Reserved by VeCo Team</span>
+      <span class="social"> <i class="fa fa-telegram"></i></span>
+      <span class="social"> <i class="fa fa-facebook"></i></span>
+      <span class="social"> <i class="fa fa-instagram"></i></span>
+      <span class="social">Follow us : </span>
+      <div style="clear: both"></div>
+  </div>
+  </footer>
+</body>
+</html>
