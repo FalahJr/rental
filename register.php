@@ -1,14 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-    <style type="text/css">
+<style type="text/css">
         :root {
         --input-padding-x: .75rem;
         --input-padding-y: .75rem;
@@ -25,9 +15,9 @@
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        margin-top: 75px;
-        background-color: #ffffff;
-        color: #000000;
+        margin-top: 160px;
+        background-color: #2E86DE ;
+        color: white;
         width: 26rem;
         height: 29.5rem;
         opacity: 0.95;
@@ -183,7 +173,7 @@
     div#footer {
       width: 100%;
       height: 3rem;
-      background-color: #4A69BD;    
+      background-color: #2E86DE;    
       color: #ffffff;
       position: fixed;
       bottom: 0;
@@ -203,42 +193,10 @@
 
 }
 </style>
-
-    <title>RentalQ | Register</title>
-  </head>
-  <body class="default-theme">
-    <svg id="wave-background" viewBox="0 0 1440 550">
-        <path fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
-            <div class="container">
-                <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center">
-                    <!-- <img src="{{ asset('images/websites/Logo_VeCo.png') }}" class="img-responsive"> -->
-                    <strong class="ml-2">RentalQ</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto" id="menu">
-                        <a href="">Home</a>
-                        <a href="">What is Veco?</a>
-                        <a href="">Easy Goals with Us</a>
-                        <a href="">Contact</a>
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        
-                            <a href="" class="btn btn-primary btn-sm" type="submit" style="background-color: #67A9FB;"><i class="fa fa-user"></i> Login</a>
-                            <a href="" class="btn btn-primary btn-sm" type="submit" style="background-color: #67A9FB;"><i class="fa fa-user"></i> Register</a>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<?php
+        include("layout/header.php");
+       ?>
+   <div style="background-color: #F4F6F9;height:100%">
     <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -246,7 +204,7 @@
             <div id="card-register">
                 <form method="" action="">
 
-                    <h3 class="text-center" style="overflow-y: hidden;">Register</h3>
+                    <h3 class="text-center" style="overflow-y: hidden;">Daftar Akun</h3>
 
 
                     <div class="form-label-group mt-4 w-75">
@@ -269,20 +227,21 @@
                         <label for="password-confirm">Confirm Password</label>
                     </div>
 
-                    <div class="checkbox">
+                    <div class="checkbox" >
                         <label>
-                            <input type="checkbox" value="remember-me" required><span class="ml-3">I agree to the <a href="">Term of Use</a>, <a href="">Privacy Police</a>, and <a href="">Refund Police</a>.</span>
+                            <input type="checkbox" value="remember-me" required><span class="ml-3" >I agree to the Term of Use , Privacy Police , and Refund Police.</span>
                         </label>
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-75 mt-2">
-                        Register
+                    <button type="submit" class="btn btn-primary w-75 mt-2" style="background-color: white; color:#2E86DE;">
+                        Daftar
                     </button>
                 </form>
             </div>
         </div>
     </div>
-</div>
+    </div>
+   </div>
 
     <div id="footer">
             <div class="container">

@@ -1,14 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-    <style type="text/css">
+   <style type="text/css">
+   
     :root {
         --input-padding-x: .75rem;
         --input-padding-y: .75rem;
@@ -22,9 +13,9 @@
 
     div#card-login {
         border-radius: 10px;
-        margin-top: 80px;
-        background-color: #ffffff;
-        color: #000000;
+        margin-top: 180px;
+        background-color: #2E86DE ;
+        color: white;
         width: 26rem;
         height: 28.5rem;
         opacity: 0.95;
@@ -112,81 +103,14 @@
   /*overflow-x: hidden;*/
 }
 
-body.default-theme {
-
-  
-}
-
-svg#wave-background {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: linear-gradient(180deg, #ffffff 0%, #ffffff 60%, #0099ff 60%, #0099ff 100%);
-}
-
-svg#wave-background path {
-  stroke: none;
-  fill: #0099ff;
-  transform: scale(1.1);
-}
-
-
-/* Navbar */
-
-nav.navbar {
-  width: 100vw;
-  background-color: #4A69BD;
-  position: fixed;
-  z-index: 1000;
-}
-
-nav.navbar a.navbar-brand img {
-    width: 35px;
-    height: 30px;
-}
-
-nav.navbar a.navbar-brand strong {
-    color: #ffffff;
-}
-
-nav.navbar ul.navbar-nav a {
-  text-decoration: none;
-  color: #ffffff;
-  margin: 0 15px;
-}
-
-nav.navbar ul.navbar-nav.ml-auto a {
-  color: #ffffff;
-}
-
 /* Icon Theme Toggler */
 
-/*div#theme-toggler {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  background-color: #303f9f;
-  border-radius: 50px;
-  position: fixed;
-  bottom: 60px;
-  right: 25px;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-div#theme-toggler i {
-  margin-top: 5px;
-}
-*/
 /* Footer */
 
 div#footer {
   width: 100%;
   height: 3rem;
-  background-color: #4A69BD;    
+  background-color: #2E86DE;    
   color: #ffffff;
   position: fixed;
   bottom: 0;
@@ -194,6 +118,10 @@ div#footer {
   display: flex;
   align-items: center;
 }
+
+/* #btn-submit:hover{
+    background-color: black;
+} */
 
 div#footer span i.fa {
   padding: 5px 5px;
@@ -204,44 +132,14 @@ div#footer span i.fa {
   color: var(--main-text-color);
 }
 
+
 }
 </style>
-
-    <title>RentalQ | Login</title>
-  </head>
-  <body class="default-theme">
-    <svg id="wave-background" viewBox="0 0 1440 550">
-        <path fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
-            <div class="container">
-                <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center">
-                    <!-- <img src="{{ asset('images/websites/Logo_VeCo.png') }}" class="img-responsive"> -->
-                    <strong class="ml-2">RentalQ</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto" id="menu">
-                        <a href="">Home</a>
-                        <a href="">What is Veco?</a>
-                        <a href="">Easy Goals with Us</a>
-                        <a href="">Contact</a>
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        
-                            <a href="" class="btn btn-primary btn-sm" type="submit" style="background-color: #67A9FB;"><i class="fa fa-user"></i> Login</a>
-                            <a href="" class="btn btn-primary btn-sm" type="submit" style="background-color: #67A9FB;"><i class="fa fa-user"></i> Register</a>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<?php
+        include("layout/header.php");
+       ?>
+   
+       <div style="background-color: #F4F6F9;height:100%">
     <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -249,7 +147,7 @@ div#footer span i.fa {
             <div id="card-login">
                 <form method="" action="">
 
-                    <h4 class="text-center mb-4 mt-5" style="overflow-y: hidden;">Sign In</h4>
+                    <h4 class="text-center mb-4 mt-5" style="overflow-y: hidden;">Masuk ke Akun</h4>
 
                     <div class="form-label-group w-75">
                         <input type="email" name="email" id="email" class="form-control" placeholder="E-mail Address" required autofocus>
@@ -267,27 +165,27 @@ div#footer span i.fa {
                             <span class="ml-3">Remember Me
                         </label>
                             
-                                <a class="float-right" href="{{ route('password.request') }}">
+                                <a class="float-right text-light" href="">
                                     Forgot Password
                                 </a>
                             
                             </span>
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-75 mt-2">
-                        Sign In
+                    <button type="submit" id="btn-submit" class="btn btn-primary w-75 mt-2" style="background-color: white; color:#2E86DE;">
+                       Masuk
                     </button>
 
                     <div id="social-login">
                         <p class="mt-4 text-center">Or Sign In With</p>
                         <p class="text-center" style="overflow-y: hidden;">
                             <a href=""><i class="fa fa-google text-danger"></i></a>
-                            <a href=""><i class="fa fa-facebook text-primary"></i></a>
                         </p>
                     </div>
                 </form>
             </div>
         </div>
+    </div>
     </div>
     </div>
 
