@@ -133,7 +133,7 @@ div#footer span i.fa {
 }
 
 
-}
+
 </style>
 <?php
         include("layout/header.php");
@@ -171,11 +171,12 @@ div#footer span i.fa {
                             
                             </span>
                     </div>
-
-                    <button type="submit" id="btn-submit" class="btn btn-primary w-75 mt-2" style="background-color: white; color:#2E86DE;">
+<center>
+                    
+                    <a href="index.php" id="btn-submit" class="btn btn-primary w-75 mt-2" style="background-color: white; color:#2E86DE;">
                        Masuk
-                    </button>
-
+                    </a>
+</center>
                     <div id="social-login">
                         <p class="mt-4 text-center">Or Sign In With</p>
                         <p class="text-center" style="overflow-y: hidden;">

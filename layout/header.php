@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/tes.css">
+  <link rel="stylesheet" href="assets/css/anu5.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
   </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #2E86DE;">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #1e90ff;">
         <div class="container"> 
         <a class="navbar-brand navbar_link" href="#first">RentalQ</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">

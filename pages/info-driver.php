@@ -74,7 +74,7 @@
         <div class="container">
            <div class="row">
                <div class="col-4">
-               <img src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" class="img-fluid w-75 mt-4">
+               <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" class="img-fluid w-75 mt-4">
                </div>
                <div class="col-8 mt-4">
                <table border="0" class="table table-striped"  style="font-size: 15px; color:black">

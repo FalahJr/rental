@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/css/tes.css">
+<link rel="stylesheet" href="../assets/css/anu5.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -76,7 +76,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -96,7 +96,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -116,7 +116,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -136,7 +136,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -156,7 +156,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -176,7 +176,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -196,7 +196,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -216,7 +216,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -236,7 +236,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -256,7 +256,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -276,7 +276,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -296,7 +296,7 @@
                 <div class="col-12 col-sm-6 col-xl-3 card-list">
                     <a class="link" href="info-driver.php" style="text-decoration: none;">
                         <div class="card">
-                            <img class="img-responsive img-destination" alt="a" src="https://lh3.googleusercontent.com/proxy/z7YNGgjpifiSzSKNs7t6baditnqCxzlPv0KcIkanPjkddr4F4VP3oRJ6RQ4OKJiFjXpA5JYRDalL8ej3HisFeyZSIzJ_XEeT_x-P" width="100%">
+                            <img class="img-responsive img-destination" alt="a" src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/billy_heat_face-512.png" width="100%">
                             <div class="card-body text-left">
                                 <h5>Mr. X
                                     <p style="font-size: 13px;">
@@ -324,8 +324,7 @@
     <div class="container text-center text-md-left mt-5" style="padding-top: 30px;">
       <div class="row mt-3">
         <div class="col-md-6 col-lg-7 col-xl-6 mx-auto mb-4 d-flex align-items-center">
-          <!-- <img src="assets/img/icon.png" alt="Logo" style="width:15%;" class="img-responsive"> -->
-              <strong class="ml-3" style="font-size: 40px; font-family: 'Montserrat';">RentalQ</strong>
+            <strong class="ml-3" style="font-size: 40px; font-family: 'Montserrat';">RentalQ</strong>
         </div>
         <div class="col-md-6 col-lg-5 mx-auto mb-4">
           <div class="row">
@@ -359,7 +358,6 @@
                 <img src="../assets/img/app_store.png" class="img-apple">
               </p>
             </div>
-           
             </div>
         </div>
       </div>

@@ -232,10 +232,11 @@
                             <input type="checkbox" value="remember-me" required><span class="ml-3" >I agree to the Term of Use , Privacy Police , and Refund Police.</span>
                         </label>
                     </div>
-
-                    <button type="submit" class="btn btn-primary w-75 mt-2" style="background-color: white; color:#2E86DE;">
+<center>
+                    <a href="login.php" class="btn btn-primary w-75 mt-2" style="background-color: white; color:#2E86DE;">
                         Daftar
-                    </button>
+                    </a>
+</center>
                 </form>
             </div>
         </div>
